@@ -1,12 +1,21 @@
 import moment from 'moment';
+import BreakingNews from './BreakingNews/BreakingNews';
+import Navbar from './Navbar/Navbar';
 
 const Header = () => {
     return (
         <div>
-            <div >
-                <img className="w-80 flex justify-center" src="/src/assets/logo.png" alt="logo" />
-                <p className="text-center">Journalism Without Fear or Favour</p>
+            <div className='text-center'>
+                <img className="mx-auto" src="/src/assets/logo.png" alt="logo" />
+                <p >Journalism Without Fear or Favour</p>
                 <p className='text-xl'>{moment().format("dddd, MMMM D, YYYY")}</p>
+
+            </div>
+            <div>
+                <BreakingNews></BreakingNews>
+            </div>
+            <div>
+                <Navbar></Navbar>
             </div>
 
         </div>

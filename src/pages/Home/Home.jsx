@@ -1,6 +1,6 @@
 import Header from "./Sheard/Header/Header";
 import LeftSideNav from "./Sheard/LeftSideNav/LeftSideNav";
-import Navber from "./Sheard/Navbar/Navber";
+
 import RightSideNav from "./Sheard/RightSideNav/RightSideNav";
 
 
@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Navber></Navber>
-            <div className="grid grid-cols-1 items-center md:grid-cols-4">
+           
+            <div className="grid grid-cols-1  md:grid-cols-4 mt-8">
                 <div>
                     <LeftSideNav></LeftSideNav>
                 </div>
