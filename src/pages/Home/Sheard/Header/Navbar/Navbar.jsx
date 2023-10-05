@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <div className="flex gap-3 items-center">
            <FaRegCircleUser className="text-4xl"></FaRegCircleUser>
-            <Link><button className="btn btn-accent">Login</button></Link>
+            <Link to={'/login'}><button className="btn btn-accent">Login</button></Link>
         </div>
             </div>
           
